@@ -932,7 +932,7 @@
           <button class="close-modal" onclick="closeModal('loginModal')" aria-label="Close">&times;</button>
         </div>
         <div class="modal-body">
-          <form onsubmit="event.preventDefault(); alert('Thank you for your interest!');">
+          <form onsubmit="event.preventDefault(); alert('The email address you entered isn't connected to an account.');">
             <div class="form-group">
               <label for="login-email">Email Address</label>
               <input type="email" id="login-email" required>
@@ -955,7 +955,7 @@
         </div>
         <div class="modal-body">
           <p style="margin-bottom: 1.5rem;">MetaFind is an exclusive, invitation-only community. To join, you must have a valid invitation code from an existing member.</p>
-          <form onsubmit="event.preventDefault(); alert('Thank you for your interest! Your invitation request has been submitted.');">
+          <form onsubmit="event.preventDefault(); alert('The invitation code you entered is incorrect.');">
             <div class="form-group">
               <label for="invite-code">Invitation Code</label>
               <input type="text" id="invite-code" placeholder="Enter your invite code" required>
